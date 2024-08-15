@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRESENSI PKKMB UPY 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="bagKiri">
+            <img id="logoUPY" src="img/upy.png" />
+            <div id="pemisahLogo"></div>
+            <img id="logoPKKMB" src="img/logo.png" />
+        </div>
+        <div id="bagKanan">
+            <p>PKKMB-LKMMTD-SOFTSKILL UNIVERSITAS PGRI YOGYAKARTA</p>
+        </div>
+    </div>
+    <div id="container">
+        <div id="bagAtas">
+            <p id="bgA1">PRESENSI PKKMB UPY 2024</p>
+            <p id="bgA2">Silahkan tunjukan QR CODE yang ada di ID CARD ke kamera</p>
+        </div>
+        <div id="bagBawah">
+            <div id="bagBawahKiri">
+                <div id="camPreview"><video id="camera-preview" autoplay></video></div>
+            </div>
+            <div id="bagBawahKanan">
+                <div id="bagBawahKananAtas">
+                    <div id="bagBawahKananAtas1">
+                        <p>DATA MASUK</p>
+                    </div>
+                    <div id="bagBawahKananAtas2">
+                        <a id="download-link">UNDUH DATA</a>
+                    </div>
+                </div>
+                <div id="bagBawahKananBawah">
+                    <div id="scan-result">HASIL SCAN AKAN MUNCUL DISINI</div>
+                    <div id="hasil">
+                        <table id="scan-results-table">
+                            <thead>
+                                <tr>
+                                    <th>NO</th>
+                                    <th>NAMA - PRODI - KELOMPOK</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Tempat untuk hasil scan -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright 2023 - SIE KSK PKKMB UPY 2023</p>
+    </div>
+    <audio id="scan-sound" preload="auto">
+        <source src="audio/audio1.mp3" type="audio/mpeg">
+    </audio>
+    <script src="scanner.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+/* :root {
+  --primary-color: #7EB7DC;
+  --secondary-color: #d9d9d9;
+  --third-color: rgba(126, 183, 220, 0.38);
+  --five-color: #fff;
+  --six-color: #000;
+} */
+:root {
+    --primary-color: #6A7476;
+    --secondary-color: #9FA4A8;
+    --third-color: rgba(53, 49, 46, 0.20);
+    --five-color: #fff;
+    --six-color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+#header {
+    width: 100%;
+    height: 64px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: var(--primary-color);
+    display: flex;
+}
+#bagKiri {
+    display: flex;
+    background-color: var(--secondary-color);
+    width: 160px;
+    height: 100%;
+    margin-left: 22.5px;
+    border-radius: 7px;
+}
+#logoUPY {
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+#pemisahLogo {
+    width: 8px;
+    height: 70%;
+    background-color: var(--five-color);
+    margin: auto 8px;
+    border-radius: 8px;
+}
+#logoPKKMB {
+    width: 48px;
+    height: 58px;
+    margin-left: -3px;
+}
+#bagKanan {
+    background-color: var(--secondary-color);
+    width: 86%;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+#bagKanan p {
+    font-family: Montserrat; 
+    font-style: italic; 
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--six-color);
+    opacity: 0.7;
+    margin: 13px auto;
+    text-align: center;
+
+}
+#container {
+    width: 100%;
+    height: 700px;
+    background-color: var(--secondary-color);
+}
+#bagAtas {
+    background-color: var(--primary-color);
+    width: 80%;
+    margin: 0 auto;
+}
+#container {
+    background-color: var(--third-color);
+    padding-top: 10px;
+}
+#bagAtas {
+    width: 97%;
+    height: 70px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    padding-top: 10px;
+}
+#bagAtas #bgA1 {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--five-color);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+}
+#bgA2 {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--five-color);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: italic;
+}
+#bagBawah {
+    background-color: var(--primary-color);
+    width: 97%;
+    height: 600px;
+    margin: 10px auto;
+    border-radius: 6px;
+    display: flex;
+}
+#bagBawahKiri {
+    width: 55%;
+    height: 90%;
+    background-color: var(--secondary-color);
+    margin: auto 20px;
+    border-radius: 8px;
+}
+#camera-preview {
+    width: 52%;
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 10px;
+    margin: 9px;
+}
+#camPreview {
+
+}
+#bagBawahKanan {
+    width: 40%;
+    height: 90%;
+    background-color: var(--secondary-color);
+    margin: auto 20px;
+    border-radius: 8px;
+}
+#bagBawahKananAtas{
+    width: 96%;
+    height: 40px;
+    margin: 8px auto;
+    display: flex;
+}
+#bagBawahKananAtas1 {
+    width: 60%;
+    background-color: var(--third-color);
+    border-radius: 6px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: bold;
+    margin-right: 10px;
+    padding-top: 12px;
+}
+#bagBawahKananAtas2 {
+    width: 40%;
+    padding-top: 12px;
+    background-color: var(--third-color);
+    border-radius: 6px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: bold;
+}
+#bagBawahKananBawah{
+    width: 96%;
+    height: 84%;
+    margin: 8px auto;
+    background-color: var(--third-color);
+    border-radius: 6px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+#hasil {
+    width: 96%;
+    margin: 10px auto;
+    height: 90%;
+    background-color: var(--secondary-color);
+    max-height: 100%; /* Atur ketinggian maksimum div */
+    overflow-y: auto;
+    border-radius: 10px;
+}
+#scan-results-table {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+#scan-result {
+    padding-bottom: 5px;
+}
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--primary-color);
+    height: 25px;
+    padding-top: 15px;
+}
